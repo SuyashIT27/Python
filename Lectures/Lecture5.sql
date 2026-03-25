@@ -1,0 +1,7 @@
+-- TABLE RELATED QUERIES 
+-- ALTER COMMAND IS USED TO CHANGE THE SCHEMA 
+-- Command using the alter command are ADD ,DROP , RENAME , CHANGE , MODIFY
+USE College1;
+ALTER TABLE College ADD COLUMN age INT ;
+SELECT * FROM College;
+ALTER TABLE College DROP COLUMN age ;
